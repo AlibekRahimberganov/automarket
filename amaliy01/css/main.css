@@ -1,0 +1,204 @@
+:root {
+    --asosiy: #1f3a5f;
+    --stress: #e0a526;
+    --fon: #f3f6fa;
+    --matn: #243247;
+    --oq: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: var(--fon);
+    color: var(--matn);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+header, main, footer {
+    width:  min(100% - 40px, 960px);
+    margin: 0 auto;
+}
+
+header {
+    padding: 18px 0;
+    border-bottom: 1px solid #d6deea;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.55rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: var(--stress);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: var(--asosiy);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #b77b00;
+    text-decoration: underline;
+}
+
+h1 {
+    color: var(--asosiy);
+    font-size: 2.35rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+h2, h3 {
+    color: var(--asosiy);
+    line-height: 1.35;
+}
+
+h2 {
+    font-size: 1.6rem;
+    text-transform: none;
+}
+
+h3 {
+    font-size: 1.15rem;
+}
+
+.hero {
+    padding: 30px 0 22px;
+}
+
+.eyebrow {
+    color: #8a5b00;
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.lead {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 9px 16px;
+    background-color: var(--asosiy);
+    color: var(--oq);
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    background-color: #315985;
+    color: var(--oq);
+}
+
+.car-card {
+    margin: 18px 0;
+    padding: 16px 20px;
+    background-color: var(--oq);
+    border-left: 4px solid var(--stress);
+    border-radius: 5px;
+}
+
+.car-card h3 {
+    margin-top: 0;
+}
+
+.price {
+    color: var(--asosiy);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.izoh {
+    color: rgb(76, 91, 110);
+    font-style: italic;
+}
+
+ul, ol {
+    line-height: 1.9;
+}
+
+dt {
+    color: var(--asosiy);
+    font-weight: 800;
+}
+
+dd {
+    margin-bottom: 12px;
+}
+
+blockquote {
+    margin: 22px 0;
+    padding: 12px 18px;
+    border-left: 4px solid var(--stress);
+    color: #46566b;
+    font-style: italic;
+}
+
+/* Havolalar holati */
+a {
+    color: #245b91;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #684a8e;
+}
+
+a:hover {
+    color: #b77b00;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 2px solid var(--stress);
+    outline-offset: 3px;
+}
+
+#aloqa {
+    margin-top: 28px;
+    padding: 18px 0;
+    border-top: 1px solid #d6deea;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 16px 0;
+    border-top: 1px solid #d6deea;
+    color: rgb(76, 91, 110);
+    font-size: 0.9rem;
+}
+
+mark {
+    background-color: #fff0bd;
+    color: #4d3a0a;
+}
+
+strong {
+    font-weight: 800;
+}
